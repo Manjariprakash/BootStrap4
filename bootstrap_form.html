@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head >
+      <meta charset="utf-8">
+      <title>Form</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <script src="https://kit.fontawesome.com/c6756913ac.js" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <div class="container-fluid">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <svg height="25" width="160" class="mx-1">
+                <image x="0" y="0" height="25" width="160" href="quadyster.svg"/>
+              </svg>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarScroll">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 500px;">
+                     <li class="nav-item">
+                        <a class="nav-item nav-link ms-2 me-1" href="#">
+                        <i class="fa-solid fa-house text-primary "></i> Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-item nav-link me-1" href="#">
+                        <i class="fa-solid fa-link text-success "></i> Portals</a>
+                     </li>
+
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle me-2" href="#" id="navbarScroll1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-building" style="color:darkblue"></i>
+                        Partners
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScroll1">
+                           <li><a class="dropdown-item" href="#"><i class="fa-solid fa-building p-1" style="color:darkblue"></i>Partners 1</a></li>
+                           <li><a class="dropdown-item" href="#"><i class="fa-solid fa-building p-1" style="color:darkblue"></i>Partners 2</a></li>
+                           <li><a class="dropdown-item" href="#"><i class="fa-solid fa-building p-1" style="color:darkblue"></i>Partners 3</a></li>
+                        </ul>
+                     </li>
+
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle me-1" href="#" id="navbarScroll2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-dollar-sign text-success"></i>
+                        Fulfillments
+                        </a>
+                        <ul class="dropdown-menu me-1" aria-labelledby="navbarScroll2">
+                           <li><a class="dropdown-item" href="#"><i class="fa-solid fa-dollar-sign text-success"></i>Fulfillments 1</a></li>
+                           <li><a class="dropdown-item" href="#"><i class="fa-solid fa-dollar-sign text-success"></i>Fulfillments 2</a></li>
+                           <li><a class="dropdown-item" href="#"><i class="fa-solid fa-dollar-sign text-success"></i>Fulfillments 3</a></li>
+                        </ul>
+                     </li>
+
+                     <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle me-2" href="#" id="navbarScroll3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-gears p-1 text-success"></i>
+                        Settings
+                        </a>
+                        <ul class="dropdown-menu me-2" aria-labelledby="navbarScroll3">
+                           <li><a class="dropdown-item me-2" href="#"><i class="fa-solid fa-gears p-1 text-success"></i>Settings 1</a></li>
+                           <li><a class="dropdown-item me-2" href="#"><i class="fa-solid fa-gears p-1 text-success"></i>Settings 2</a></li>
+                           <li><a class="dropdown-item me-2" href="#"><i class="fa-solid fa-gears p-1 text-success"></i>Settings 3</a></li>
+                        </ul>
+                     </li>
+
+                     <li class="nav-item">
+                        <a class="nav-item nav-link pe-1 me-2" href="#">
+                        <i class="fa-solid fa-bars text-success"></i> Opportunities</a>
+                     </li>
+
+                     <li class="nav-item">
+                        <a class="nav-item nav-link me-2" href="#">
+                        <i class="fa-solid fa-circle-plus pe-1 text-success"></i> New opportunity</a>
+                     </li>
+                  </ul>
+                  <form class="d-flex">
+                     <i class="fa-solid fa-user p-2" style="color:purple"></i>
+                     <div class="nav-item dropdown p-2">
+                        <a class="nav-link dropdown-toggle me-2" href="#" id="navbarScroll4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScroll4">
+                           <li><a class="dropdown-item" href="#"> <i class="fa-solid fa-user p-2" style="color:purple"></i>Manjari Prakash</a></li>
+                        </ul>
+                     </div>
+
+                     <input class="form me-2" type="search" placeholder="Search" aria-label="Search">
+                     <i class="fa-regular fa-circle-question p-2 mt-1 me-1" style="color:darkblue"></i>
+                     <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+               </div>
+            </div>
+         </nav>
+         <form>
+            <div class="container border border-primary mt-2 mb-2">
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Contract Id:</label>
+                  <div class="col-md-10"> <input type="text" value="2" placeholder="Contract Id" disabled class="form-control input-lg"> </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Contract Number:</label>
+                  <div class="col-sm-4"> <input type="text" value="SB134117AE0050" placeholder="Contract Number" class="form-control input-md"> </div>
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">NAICS Code:</label>
+                  <div class="col-sm-4"> <input type="text" value="541519" placeholder="NAICS Code" class="form-control input-md"> </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Name:</label>
+                  <div class="col-md-10"> <input type="text" placeholder="Name" value="Volume Graphic Software" class="form-control"> </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Description:</label>
+                  <div class="col-sm-10">
+                     <textarea class="form-control" rows="3" name="description" placeholder="Description">PRODUCT ID PX124530N+VGSTUDIO MAX 3.0 CAST@MOLD</textarea>
+                  </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Customer Code:</label>
+                  <div class="col-sm-7">
+                     <select class="form-select" name="customer_code">
+                        <option value="DOC01-000SB-Acquisition Management Division">DOC01-000SB-Acquisition Management Division</option>
+                        <option value="DOC02-000SB1-Rajiv Gandhi Institute of Technology">DOC02-000SB1-Rajiv Gandhi Institute</option>
+                        <option value="DOC03-000SB2-Guru Ramdas Khalsa Institute of Science and Technology">DOC03-000SB2-GRKIST College</option>
+                     </select>
+                  </div>
+                  <div class="col-sm-3 d-flex justify-content-end"> <button type="button" class="btn btn-outline-success">View Customer</button> </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Contract Date:</label>
+                  <div class="col-sm-4"> <input type="date" class="form-control" value="2017-06-29"> </div>
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Solicitation Number:</label>
+                  <div class="col-sm-4"> <input type="text" class="form-control" value="998" placeholder="Solicitation Number"> </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Perf Period From:</label>
+                  <div class="col-sm-4"> <input type="date" class="form-control" value="2017-07-25"> </div>
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Perf Period to:</label>
+                  <div class="col-sm-4"> <input type="date" class="form-control" value="2017-07-24"> </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Performance Year:</label>
+                  <div class="col-sm-4">
+                     <select class="form-select" name="customer_code">
+                        <option value="one_year">One year</option>
+                        <option value="two_year">Two year</option>
+                        <option value="three_year">Three year</option>
+                     </select>
+                  </div>
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Delivery Mode:</label>
+                  <div class="col-sm-4">
+                     <select class="form-select" name="customer_code">
+                        <option value="email">E-Mail</option>
+                        <option value="usps">USPS</option>
+                        <option value="ups">UPS</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Delivery Status:</label>
+                  <div class="col-sm-4">
+                     <select class="form-select" name="delivery_status">
+                        <option value="delivered">Delivered</option>
+                        <option value="not delivered">Not Delivered </option>
+                        <option value="on the way">On the way</option>
+                     </select>
+                  </div>
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Delivery Date:</label>
+                  <div class="col-sm-4"> <input type="date" class="form-control" value="2017-07-27"> </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Payment Mode:</label>
+                  <div class="col-sm-4">
+                     <select class="form-select" name="payment_mode">
+                        <option value="ach">ACH</option>
+                        <option value="cash">CASH</option>
+                        <option value="card">CARD</option>
+                     </select>
+                  </div>
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Payment Terms:</label>
+                  <div class="col-sm-4">
+                     <select class="form-select" name="payment_terms">
+                        <option value="net 30">Net 30</option>
+                        <option value="net 45">Net 45</option>
+                        <option value="net 60">Net 60</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end text-info">Quadyster Amount:</label>
+                  <div class="col-sm-4"> <input type="text" value="44000.00" placeholder="Quadyster Amount" class="form-control input-md"> </div>
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Payment Due Date:</label>
+                  <div class="col-sm-4"> <input type="date" class="form-control" value="2017-07-08"> </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end text-info">Fee Amount:</label>
+                  <div class="col-sm-4"> <input type="text" value="0.00" placeholder="Fee Amount" class="form-control input-md"> </div>
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Fee Terms:</label>
+                  <div class="col-sm-4">
+                     <select class="form-select" name="fee_terms">
+                        <option value="1 month">1 Month</option>
+                        <option value="2 month">2 Month</option>
+                        <option value="3 month">3 Month</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end text-info">Contract Amount:</label>
+                  <div class="col-sm-4"> <input type="text" placeholder="44000.00" class="form-control input-md" disabled> </div>
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Fee Due Date:</label>
+                  <div class="col-sm-4"> <input type="date" class="form-control" value="2017-08-07"> </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Paid Date:</label>
+                  <div class="col-sm-4"> <input type="date" class="form-control" value="2017-08-07"> </div>
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Fee Paid Date:</label>
+                  <div class="col-sm-4"> <input type="date" class="form-control" value="2017-08-07"> </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Payment Status:</label>
+                  <div class="col-sm-4">
+                     <select class="form-select" name="payment_status">
+                        <option value="received">Received</option>
+                        <option value="not received"> Not Received</option>
+                        <option value="waiting">Waiting</option>
+                     </select>
+                  </div>
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Currency:</label>
+                  <div class="col-sm-4">
+                     <select class="form-select" name="currency">
+                        <option value="usd">USD</option>
+                        <option value="india"> IND</option>
+                        <option value="uk">UK</option>
+                     </select>
+                  </div>
+               </div>
+               <div class="mt-2 row">
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Customer Category:</label>
+                  <div class="col-sm-4">
+                     <select class="form-select" name="customer_category">
+                        <option value="federal">Federal</option>
+                        <option value="commercial">Commercial</option>
+                        <option value="public">Public</option>
+                     </select>
+                  </div>
+                  <label class="col-sm-2 col-form-label d-flex justify-content-end">Cotract Set Aside:</label>
+                  <div class="col-sm-4">
+                     <select class="form-select" name="cotract_set_aside">
+                        <option value="none">None</option>
+                        <option value="fixed_price">Fixed-price</option>
+                        <option value="cost_plus">Cost-plus </option>
+                     </select>
+                  </div>
+               </div>
+               <div class="mt-2 mb-2 row">
+                  <div class="col-sm-12 d-flex justify-content-center">
+                     <button type="button" class="btn btn-primary mx-1"> <i class="fa-solid fa-floppy-disk p-1" style="color:yellow"></i> Save
+                     </button>
+                     <button type="button" class="btn btn-danger"> <i class="fa-regular fa-trash-can p-1" style="color:yellow"></i> Delete
+                     </button>
+                     <button type="button" class="btn btn-outline-success mx-1"> Notes
+                     </button>
+                     <button type="button" class="btn btn-outline-primary"> Payment
+                     </button>
+                     <button type="button" class="btn btn-outline-info mx-1"> <i class="fa-solid fa-eye p-1" style="color:darkblue"></i> Switch to View
+                     </button> <button type="button" class="btn btn-outline-info">Goto: Contract List</button>
+                  </div>
+               </div>
+            </div>
+      </form>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+   </body>
+</html>
